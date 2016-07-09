@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  color: #222;
+  background: #f7f5f0;
+}
+header {
+  text-align: center;
+  background: url('mspaintfox.png') repeat top center;
+  background-size: contain;
+  overflow: hidden;
+  padding-top: 60px;
+}
+.profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+.nametag {
+  background-color: #efefef;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
+.card {
+  margin: 20px auto;
+  padding: 20px 40px;
+  max-width: 500px;
+  background: white;
+  border-bottom: 4px solid #31194b;
+  border-radius: 6px;
+}
